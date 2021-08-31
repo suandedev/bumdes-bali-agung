@@ -1,0 +1,15 @@
+div.scroll {
+    overflow: auto;
+    white-space: nowrap;
+}
+div.scroll col{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scroll col {
+    background-color: #777;
+}
