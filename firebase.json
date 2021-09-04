@@ -1,5 +1,32 @@
 {
   "hosting": {
+    "redirects": [
+      {
+        "source": "/dashboard",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/produk",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/jasa",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/profile",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/tentang",
+        "destination": "/",
+        "type": 301
+      }
+    ],
     "public": "public",
     "ignore": [
       "firebase.json",
